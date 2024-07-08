@@ -6,7 +6,7 @@ const FeedbackDisplay = ({ orderId }) => {
 
   const fetchFeedback = async () => {
     try {
-      const response = await axios.get(`http://localhost:4000/api/feedback/${orderId}`)
+      const response = await axios.get(`https://digital-menu-zmtt.onrender.com/api/feedback/${orderId}`)
       setFeedback(response.data.data.feedback);
     } catch (error) {
       console.error('Failed to fetch feedback', error);

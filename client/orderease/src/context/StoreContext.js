@@ -7,7 +7,7 @@ export const StoreContext = createContext(null)
 const StoreContextProvider = (props) => {
 
     const [cartItems,setCartItems] = useState({});
-    const url = "http://localhost:4000"
+    const url = "https://digital-menu-zmtt.onrender.com"
     const [token,setToken] = useState("");
     const [foodData,setFoodList] = useState([])
 

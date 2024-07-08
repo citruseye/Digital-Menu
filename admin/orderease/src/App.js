@@ -10,7 +10,7 @@ import { Toaster } from "react-hot-toast"
 
 function App() {
 
-  const url = "http://localhost:4000"
+  const url = "https://digital-menu-zmtt.onrender.com"
 
   return (
     <div className="App">
